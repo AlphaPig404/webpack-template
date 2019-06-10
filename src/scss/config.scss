@@ -1,0 +1,11 @@
+@function px2rem($px){
+    $rem : 75;
+    @return ($px/$rem) + rem;
+}
+
+$theme-color: #ec2c7a;
+
+$theme-color-hover: #ff4591;
+
+$theme-color-hover-active: #da206c;
+
